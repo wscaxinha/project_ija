@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  font-family: "Monoton", cursive;
+  background-image: url("/IMG/Papel/p2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  background-color: hsla(30,100%,50%,0.6);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 30px;
+  font-size: 20px;
+}
+.imgLogo {
+  width: 100px;
+  height: auto;
+}
+.nav-links-desktop {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-links-desktop li a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s;
+}
+.nav-links-desktop li a:hover {
+  color: #9e00d8;
+}
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 30px;
+  right: 0;
+  width: 40%;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.9);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.mobile-menu.active {
+  display: flex;
+}
+.nav-links-mobile {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  padding-top: 50px;
+}
+.nav-links-mobile a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.close {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.footer {
+  background-color: #b27100;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .nav-links-desktop {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+.biblioteca {
+  text-align: center;
+  padding: 20px;
+  color: #333;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.titulo-biblioteca {
+  font-size: 2rem;
+  color: #b27100;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+.livros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.livro_in {
+  background-color: #cecec9;
+  border: 2px solid #b27100;
+  border-radius: 10px;
+  width: 200px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.imagem-livro {
+  width: 100%;
+  border-radius: 5px;
+}
+h2 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+button {
+  background-color: #b27100;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.style_b:hover {
+  transform: scale(1.2);
+  box-shadow: 0 5px 15px rgba(191, 5, 238, 0.9);
+  background-color: #9e06ea;
+}
