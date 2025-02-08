@@ -13,7 +13,7 @@
 📌 **Descrição:**
 <p style = "text-align: justify;">
   Criar um site onde estudantes negros possam se conectar com cursos online, materiais educativos sobre história e cultura afro-brasileira, reforçando a representatividade no ensino e disponibilizar informações sobre  oportunidades de bolsas e programas de inclusão para estudantes negros.
-
+</p>
 📋 **Funcionalidades:**
 - Cadastro de alunos, professores voluntários.
 - Biblioteca Digital.
@@ -72,7 +72,7 @@ O problema foi identificado com base em dados oficiais fornecidos pelo Instituto
 <p style = "text-align: justify;">
 As desigualdades raciais na educação brasileira permanecem. De acordo com o estudo, embora tenha havido uma diminuição de mais de 200 mil analfabetos entre 2022 e 2023, a porcentagem entre os negros é mais que o dobro em comparação com os brancos. No ano passado, enquanto 3,2% da população branca não sabia ler ou escrever, a taxa chegou a 7,1% entre a população negra. Além disso, o IBGE calculou que os brancos estudam em média 10,8 anos. Já entre as pessoas de cor preta ou parda, esses anos ficaram em 9,2. 
 
-![#](https://educa.ibge.gov.br/images/educa/jovens/materias-especiais/dado_universidades_maxima-edit.png)
+![#](/IMG/dado_universidades.png)
 
 <p style = "text-align: justify;">
 A escolha desses dados e referências se justifica pela credibilidade das fontes e pela abrangência das informações apresentadas. Esses estudos fornecem uma visão clara e detalhada da situação educacional dos jovens negros no Brasil, permitindo-nos identificar e confirmar que a desigualdade na educação é um problema significativo para o nosso público-alvo.
