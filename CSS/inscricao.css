@@ -6,7 +6,7 @@
 
 body,html {
   font-family: "Monoton", cursive;
-  background-image: url("/IMG/Papel/p3.jpg");
+  background-image: url("./IMG/Papel/p3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

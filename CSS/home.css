@@ -17,7 +17,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("/IMG/i1.jpg");
+  background-image: url("./IMG/i1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

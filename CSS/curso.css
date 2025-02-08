@@ -5,7 +5,7 @@
 }
 body, html {
     font-family: 'Monoton', cursive;
-    background-image: url("/IMG/Papel/papel_curso.jpg");
+    background-image: url("./IMG/Papel/papel_curso.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
